@@ -50,7 +50,7 @@ Tám frame lướt:
 | Vật | Frame, idx | Class | Mũi tên yaw đúng hướng? | Đáy chạm đường? | Đã kiểm Top/Side/Front + ảnh? | Kích thước trong bảng 4.3? |
 |---|---|---|---|---|---|---|
 | (a) xe con gần | s01f23, idx 4 (tâm −3,2; 5,9; cách 6,7 m) | Car | Đúng: yaw 269°, gần 270° cho xe cùng chiều; mũi tên khớp đầu xe | Chạm đường: z đáy −1,75 m | Đã kiểm trên Top/Side/Front và ảnh camera (`t2-a-car`) | Trong khoảng SUV/van: 5,24 × 2,10 × 1,68 m (bảng: 4,4–5,3 × 1,80–2,10 × 1,65–2,10) |
-| (b) xe buýt hoặc xe tải | s01f23, idx 2 (tâm 6,5; 12,1; cách 13,8 m) | Bus | Đúng: yaw 270,5°, cùng chiều | Chạm đường: z đáy −1,68 m | Đã kiểm trên Top/Side/Front và ảnh camera (`t2-b-bus-truck`) | Dài 12,26 m trong khoảng 10,0–12,5 m; rộng 2,84 m vượt 2,50–2,60 m vì tôi bao cả gương chiếu hậu chìa ra hai bên, theo quy tắc bao trọn phần chìa ra của guideline; cao 3,34 m trong khoảng 3,00–3,50 m |
+| (b) xe buýt hoặc xe tải | s01f23, idx 2 (tâm 6,5; 12,0; cách 13,6 m) | Bus | Đúng: yaw 270,5°, cùng chiều | Chạm đường: z đáy −1,68 m | Đã kiểm trên Top/Side/Front và ảnh camera (`t2-b-bus-truck`) | Dài 12,26 m trong khoảng 10,0–12,5 m; rộng 2,84 m vượt 2,50–2,60 m vì tôi bao cả gương chiếu hậu chìa ra hai bên, theo quy tắc bao trọn phần chìa ra của guideline; cao 3,34 m trong khoảng 3,00–3,50 m |
 | (c) người đi bộ hoặc xe hai bánh | s01f23, idx 3 (tâm −7,1; −13,9; cách 15,6 m) | Cyclist | Yaw 20°, xe hai bánh đang đi ngang theo hướng +x, không cùng chiều xe thu dữ liệu; cần xác nhận mũi tên với ảnh camera | Chạm đường: z đáy −1,73 m | Đã kiểm trên Top/Side/Front và ảnh camera (`t2-c-ped-cyclist`) | Xe máy có người 1,8–2,3 × 0,70–0,95 × 1,40–1,80 m: dài 2,07 và cao 1,70 trong khoảng, rộng 0,65 m hơi hẹp (trong sai số ±10%) |
 
 
